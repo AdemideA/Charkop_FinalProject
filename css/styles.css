@@ -1,0 +1,62 @@
+    html, body, #container {
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    body {
+      padding-top: 50px;
+    }
+
+    #map {
+      width: auto;
+      height: 100%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.55);
+    }
+
+    #sidebar {
+      width: 300px;
+      height: 100%;
+      max-width: 100%;
+      float: left;
+      -webkit-transition: all 0.25s ease-out;
+      -moz-transition: all 0.25s ease-out;
+      transition: all 0.25s ease-out;
+    }
+
+    img {
+      position: center;
+      padding-top: 20px;
+      padding-left: 20px;
+    }
+
+    .navbar {
+      background-image: linear-gradient(to bottom, #B2B2B2 0%, #1f4b61 100%);
+      font-size: 18pt;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+      color: black;
+      font-size: 16pt;
+      font-family: 'Open Sans Condensed', sans-serif;
+    }
+
+    h2 {
+      font-size: 14pt;
+      font-family: 'Open Sans Condensed', sans-serif;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
+    h3, h4, h5, h6 {
+      font-size: 12pt;
+      font-family: 'Open Sans Condensed', sans-serif;
+      padding-right: 10px;
+      padding-left: 10px;
+      padding-bottom: 3px;
+    }
+
+    .navbar-brand {
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 30pt;
+    }
