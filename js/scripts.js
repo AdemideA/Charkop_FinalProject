@@ -16,27 +16,27 @@
       var SectorColour;
 
       if (feature.properties.ID == 1) {
-        SectorColour = '#ffeda0';
+        SectorColour = '#b10026';
       }
 
       if (feature.properties.ID == 2) {
-        SectorColour = '#fed976';
-      }
-
-      if (feature.properties.ID == 3) {
-        SectorColour = '#feb24c';
-      }
-
-      if (feature.properties.ID == 4) {
         SectorColour = '#fd8d3c';
       }
 
+      if (feature.properties.ID == 3) {
+        SectorColour = '#b10026';
+      }
+
+      if (feature.properties.ID == 4) {
+        SectorColour = '#b10026';
+      }
+
       if (feature.properties.ID == 5) {
-        SectorColour = '#fc4e2a';
+        SectorColour = '#b10026';
       }
 
       if (feature.properties.ID == 6) {
-        SectorColour = '#e31a1c';
+        SectorColour = '#fd8d3c';
       }
 
       if (feature.properties.ID == 7) {
@@ -49,13 +49,12 @@
             // fillopacity: 1,
             // weight: 2,
         }
-    },  
-  
+    },
   
     onEachFeature: function (feature, layer) {
       layer.on('click', function(){
         $('#sidebar h2').text(feature.properties.Sector);
-        $('#sidebar h3').text('Average Number of Households Interviewed in Sector: ' + feature.properties.Number_Interviewed);
+        $('#sidebar h3').text('Number of Households Interviewed in Sector: ' + feature.properties.Number_Interviewed);
         $('#sidebar h4').text('Average Length of Tenure in Charkop: ' + feature.properties.Length_Tenure);
         $('#sidebar h5').text('Interesting things interviewees said about the Community: ' + feature.properties.Community);
         $('#sidebar h6').text('Interesting things interviewees said about the Services: ' + feature.properties.Services) 
