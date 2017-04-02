@@ -24,7 +24,7 @@
       transition: all 0.25s ease-out;
     }
 
-    img {
+    .sidetitle {
       position: center;
       padding-top: 20px;
       padding-left: 20px;
