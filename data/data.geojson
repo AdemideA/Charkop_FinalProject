@@ -8,8 +8,10 @@
         "Sector": "Sector 1",
         "Number_Interviewed": 13,
         "Length_Tenure": "20 years",
-        "Community": "saved my life",
-        "Services": "xxx"
+        "Community": "\"You can get everything you need here, people come right to my door to sell their vegetable, repair appliances. It is more convenient than living in an apartment building - you have to walk downstairs for things\"",
+        "Services": "\"Services in our society are better than others, though in the summer we have water issues\"",
+        "communitytwo": "\"I believe I have lived longer because of this community\"",
+        "communitythree": "\"people of various income groups live here\""
       },
       "geometry": {
         "type": "Polygon",
@@ -44,10 +46,12 @@
       "properties": {
         "ID": 2,
         "Sector": "Sector 2",
-        "Number_Interviewed": 0,
+        "Number_Interviewed": "No Interviews",
         "Length_Tenure": "n/a",
-        "Services": "x",
-        "Community": "x"
+        "Services": "n/a",
+        "Community": "n/a",
+        "communitytwo": "n/a",
+        "communitythree": "n/a"
       },
       "geometry": {
         "type": "Polygon",
@@ -100,8 +104,10 @@
         "Sector": "Sector 5",
         "Number_Interviewed": 14,
         "Length_Tenure": "15 years",
-        "Services": "x",
-        "Community": "x"
+        "Services": "\"Services are well maintained, though we have flooding every year so we had to raise the level of the house so water doesnt come in\"",
+        "Community": "\"I love the community, if I ever move it will be within Charkop and not outside Charkop\"",
+        "communitytwo": "\"I like the community, there are a lot of people similar to us here - Gujuratis\"",
+        "communitythree": "\"I dont really like the neighbourhood, in 4 years I havent really made new friends\""
       },
       "geometry": {
         "type": "Polygon",
@@ -182,8 +188,10 @@
         "Sector": "Sector 7",
         "Number_Interviewed": 11,
         "Length_Tenure": "14 years",
-        "Community": "x",
-        "Services": "x"
+        "Community": "\"I like the community, though only 3 families in the society are gujurati, our needs arent always met or understood by our neighbours\"",
+        "Services": "\"Services are well maintained, our pipelines were recently changed\"",
+        "communitytwo": "\"The community are mostly Hindus so everyone gets along, there are no problems\"",
+        "communitythree": "\"I like the community, I wouldnt want it to be redeveloped\""
       },
       "geometry": {
         "type": "Polygon",
@@ -272,8 +280,10 @@
         "Sector": "Sector 3",
         "Number_Interviewed": 19,
         "Length_Tenure": "17 years",
-        "Services": "x",
-        "Community": "x"
+        "Services": "\"Services are well maintaines, I would like more public spaces though\"",
+        "Community": "\"the womens groups we have here wouldn't exist if the community was designed differently\"",
+        "communitytwo": "\"we leave our front door open, and so do our neighbours - there isn't so much of a status show here\"",
+        "communitythree": "\"It is special to live here, everone treats us like family\""
       },
       "geometry": {
         "type": "Polygon",
@@ -312,10 +322,12 @@
       "properties": {
         "ID": 6,
         "Sector": "Sector 6",
-        "Number_Interviewed": 0,
+        "Number_Interviewed": "No Interviews",
         "Length_Tenure": "n/a",
-        "Services": "x",
-        "Community": "x"
+        "Services": "n/a",
+        "Community": "n/a",
+        "communitytwo": "n/a",
+        "communitythree": "n/a"
       },
       "geometry": {
         "type": "Polygon",
@@ -360,8 +372,10 @@
         "Sector": "Sector 4",
         "Number_Interviewed": 5,
         "Length_Tenure": "12 years",
-        "Services": "x",
-        "Community": "x"
+        "Services": "\"fascilities here are really good, we have not had any problems since we arrived\"",
+        "Community": "\"The community is great, we are not used to closed door neighbours anymore\"",
+        "communitytwo": "\"We previously lived in an apartment building and never interacted with our neighbours, here there is a great sense of community\"",
+        "communitythree": "\"before charkop became more populated, the quality of life was not good\""
       },
       "geometry": {
         "type": "Polygon",

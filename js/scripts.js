@@ -56,7 +56,7 @@
         $('#sidebar h2').text(feature.properties.Sector);
         $('#sidebar h3').text('Number of Households Interviewed in Sector: ' + feature.properties.Number_Interviewed);
         $('#sidebar h4').text('Average Length of Tenure in Charkop: ' + feature.properties.Length_Tenure);
-        $('#sidebar h5').text('Interesting things interviewees said about the Community: ' + feature.properties.Community);
+        $('#sidebar h5').text('Interesting things interviewees said about the Community: ' + feature.properties.Community + '; ' + feature.properties.communitytwo + '; ' + feature.properties.communitythree);
         $('#sidebar h6').text('Interesting things interviewees said about the Services: ' + feature.properties.Services) 
       })
     }     
