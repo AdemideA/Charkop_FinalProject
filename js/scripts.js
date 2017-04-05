@@ -54,10 +54,10 @@
     onEachFeature: function (feature, layer) {
       layer.on('click', function(){
         $('#sidebar h2').text(feature.properties.Sector);
-        $('#sidebar h3').text('Number of Households Interviewed in Sector: ' + feature.properties.Number_Interviewed);
-        $('#sidebar h4').text('Average Length of Tenure in Charkop: ' + feature.properties.Length_Tenure);
-        $('#sidebar h5').text('Interesting things interviewees said about the Community: ' + feature.properties.Community + '; ' + feature.properties.communitytwo + '; ' + feature.properties.communitythree);
-        $('#sidebar h6').text('Interesting things interviewees said about the Services: ' + feature.properties.Services) 
+        $('#sidebar h3').html('Number of Households Interviewed in Sector: ' + '<br/>' + feature.properties.Number_Interviewed);
+        $('#sidebar h4').html('Average Length of Tenure in Charkop: ' + '<br/>' + feature.properties.Length_Tenure);
+        $('#sidebar h5').html('Interesting things interviewees said about the Community: ' + '<br/>' + feature.properties.Community + '; ' + '<br/>' + feature.properties.communitytwo + '; ' + '<br/>' + feature.properties.communitythree);
+        $('#sidebar h6').html('Interesting things interviewees said about the Services: ' + '<br/>' + feature.properties.Services) 
       })
     }     
   
